@@ -1,0 +1,108 @@
+body
+{
+     font: 12px Arial, Helvetica, sans-serif;   
+}
+
+.header
+{
+    background-image:url('../images/header.JPG'); 
+}
+
+#breadcrumbdiv
+{
+    background-image:url('../images/bc_bg.png'); 
+    background-repeat:repeat-x;    
+    margin:0px;
+    padding:0px;
+    overflow-x:auto;
+    overflow-y:hidden;
+    width: 100%;
+}
+#breadcrumb
+{
+    font: 11px Arial, Helvetica, sans-serif;
+    height:30px;
+    line-height:30px;
+    color:#9b9b9b;
+    border:solid 0px #cacaca;
+    width: auto;
+    overflow: hidden;
+    margin:0px;
+    padding:0px;
+}
+#breadcrumb li 
+{
+    list-style-type:none;
+    float:left;
+    display:block;
+    padding-left:10px;
+}
+#breadcrumb a
+{
+    height:30px;
+    display:block;
+    background-image:url('../images/bc_separator.png'); 
+    background-repeat:no-repeat; 
+    background-position:right;
+    padding-right: 15px;
+    text-decoration: none;
+    color:#454545;
+}
+.home
+{
+    border:none;
+    margin: 8px 0px;
+}
+
+#breadcrumb a:hover
+{
+	color:#35acc5;
+}
+
+#fm{
+	margin:0;
+	padding:10px 30px;
+    font-size:14px;
+    font-family: tahoma,arial,verdana,sans-serif;
+}
+.ftitle{
+	font-size:14px;
+	font-weight:bold;
+	color:#666;
+	padding:5px 0;
+	margin-bottom:10px;
+	border-bottom:1px solid #ccc;
+}
+.fitem{
+	margin-bottom:5px;
+}
+.fitem label{
+	display:inline-block;
+	width:80px;
+}
+
+#logo{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.user-info
+{
+    font-size:10px;
+    font-family: tahoma,arial,verdana,sans-serif;
+    color: #000;
+}
+
+.user-info #detail-info
+{
+    color: #CEE8E8;
+}
+
+.mask {
+    padding: 11px 0px 10px 30px ;
+    background: url('../images/loading.gif') no-repeat scroll 10px 10px transparent ;
+    width: 5000px;
+    height: 5000px;
+    z-index: 999;
+}

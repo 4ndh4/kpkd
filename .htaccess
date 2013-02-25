@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^$ index.php [L]
+RewriteCond $1 !^(index\.php|auth\.http\.php|assets|robots\.txt)
+RewriteRule ^(.*)$ index.php/$1 [L]
